@@ -1,0 +1,214 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fdda00;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdda00;
+    padding: 50px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+.hero-content p {
+    font-size: 24px;
+}
+
+.hero-content .offer {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.choose-enjoy {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.choose-enjoy h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 16px;
+}
+
+.menu-item button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.upcoming-events {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.upcoming-events h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.upcoming-events .events img {
+    max-width: 100%;
+    height: auto;
+}
+
+.popular-dishes {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.dish {
+    text-align: center;
+    background-color: #fdda00;
+    padding: 20px;
+    width: 30%;
+}
+
+.dish h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.dish p {
+    font-size: 18px;
+}
+
+.reservation {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.reservation h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.reservation form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reservation form input,
+.reservation form button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+.reservation form button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}

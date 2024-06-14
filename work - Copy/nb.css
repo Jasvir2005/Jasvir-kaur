@@ -1,0 +1,36 @@
+.container{
+	width: 1170px;
+	height: auto;
+	margin: 0auto;
+}
+.topheader{
+	width:1170px;
+	height:200;
+	background-color: #ffd700;
+}
+.container .contentrow{
+	width: 1170px;
+	height: 200;
+}
+.navbar{}
+.navbar ul{
+	list-style-type: none;
+}
+.navbar ul li{
+}
+.navbar ul li a{
+	text-decoration: none;
+	float:left;
+	background-color: #fab072;
+    padding: 20px;
+}
+.navbar ul li a:hover{
+	background-color: #ff7f50;
+	color:#ffd700;
+
+}
+.navbar p{
+	margin: 20px;
+	background-color: #dc143c;
+	padding: 40px;
+}

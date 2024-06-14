@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background: #fab072;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    text-align: right;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .contact {
+    text-align: right;
+}
+
+.main-banner {
+    background: #fab072;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px ;
+}
+
+.main-banner .promo {
+    flex: 1;
+}
+
+.main-banner .promo h1,
+.main-banner .promo h2 {
+    margin: 0;
+}
+
+.main-banner .promo h2 {
+    font-size: 58px;
+}
+
+.main-banner .promo button {
+    background: #000;
+    color: #ffea00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.main-banner .banner-img {
+    flex: 1;
+    text-align: center;
+}
+
+.menu {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu .dishes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu .dishes .dish {
+    text-align: center;
+}
+
+.menu .dishes .dish img {
+    width: 200px;
+    height: 200px;
+}
+
+.events {
+    padding: 40px;
+    text-align: center;
+}
+
+.events .event-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+.specials {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.reservation {
+    padding: 30px;
+    text-align: center;
+}
+
+.reservation form {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    gap: 20px;
+}
+.reservation form1 {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    gap: 20px;
+}
+.reservation form2 {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    gap: 20px;
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+footer .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer address {
+    margin: 10px;
+}
+
+footer .social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
