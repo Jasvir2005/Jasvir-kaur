@@ -1,0 +1,38 @@
+[
+   {
+        "Name":"Kiran",
+        "Age":14,
+        "Roll No":1,
+        "Gender":"female",
+        "Interest":"painting"
+    },
+    {
+        "Name":"Simran",
+        "Age":14,
+        "Roll No": 2,
+        "Gender":"female",
+        "Interest":"singing"
+    },
+    {
+         "Name":"Taran",
+        "Age":14,
+        "Roll No":3,
+        "Gender":"Male",
+        "Interest":"Gaming"
+    },
+    {
+        "Name":"Harman",
+        "Age":15,
+        "Roll No":4,
+        "Gender":"Male",
+        "Interest":"creativity"
+    },
+    {
+        "Name":"Harpal",
+        "Age":15,
+        "Roll No": 5,
+        "Gender":"Male",
+        "Interest":"drawing"
+    }
+
+]

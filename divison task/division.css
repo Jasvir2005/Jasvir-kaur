@@ -1,0 +1,122 @@
+.container {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+.container .header {
+    width: 1170px;
+    height: 150px;
+    background-color:violet;
+}
+.container .contentrow{
+    width: 1170px;
+    height: 100px;
+
+}
+.container .contentrow .content1 {
+    width: 292.5px;
+    height: 100px;
+    background-color:red;
+    float: left;
+}
+.container .contentrow .content2 {
+    width: 292.5px;
+    height: 100px;
+    background-color:yellowgreen;
+    float: left;
+}
+.container .contentrow .content3 {
+    width: 292.5px;
+    height: 100px;
+    background-color:gray;
+    float: left;
+}
+.container .contentrow .content4 {
+    width: 292.5px;
+    height: 100px;
+    background-color:pink;
+    float: left;
+}
+.container .contentrow1 {
+    width: 1170px;
+    height: 100px;
+
+}
+.container .contentrow1 .content5 {
+    width: 292.5px;
+    height: 100px;
+    background-color:ghostwhite;
+    float: left;
+}
+.container .contentrow1 .content6 {
+    width: 292.5px;
+    height: 100px;
+    background-color:goldenrod;
+    float: left;
+}
+
+.container .contentrow1 .content7 {
+    width: 585px;
+    height: 100px;
+    background-color:orange;
+    float: left;
+}
+.container .contentrow2 {
+    width: 1170px;
+    height: 100px;
+
+}
+.container .contentrow2 .content8 {
+    width: 585px;
+    height: 100px;
+    background-color:olivedrab;
+    float: left;
+}
+.container .contentrow2 .content9 {
+    width: 292.5px;
+    height: 100px;
+    background-color: saddlebrown;
+    float: left;
+}
+
+.container .contentrow2 .content10 {
+    width: 292.5px;
+    height: 100px;
+    background-color:gray;
+    float: left;
+}
+.container .contentrow3 {
+    width: 1170px;
+    height: 100px;
+
+}
+.container .contentrow3 .content11 {
+    width: 292.5px;
+    height: 100px;
+    background-color:indigo;
+    float: left;
+}
+.container .contentrow3 .content12 {
+    width: 585px;
+    height: 100px;
+    background-color:blanchedalmond;
+    float: left;
+}
+
+.container .contentrow3 .content13 {
+    width: 292.5px;
+    height: 100px;
+    background-color:lightblue;
+    float: left;
+}
+.container .contentrow4 {
+    width: 1170px;
+    height: 100px;
+    background-color:darkgoldenrod;
+
+}
+
+
+
+
+s
