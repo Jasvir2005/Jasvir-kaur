@@ -1,0 +1,490 @@
+.topheader {
+    width: 100%;
+    height:auto;
+    background-color:skyblue;
+}
+.container {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+
+}
+.navbar{
+    position: fixed ;
+    top:20px;
+    left: 10%;
+    background-color:#ffffff;
+   color:#fff;
+    justify-content: center;
+    padding: 10px 0;
+    width:80%;
+}
+.navbar ul {
+list-style-type: none ;
+}
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration:none;
+    float: left;
+    padding: 14px 20px;
+    text-align: center;
+    color:#000000;
+}
+
+.navbar ul li a:hover {
+    background-color: black;
+    color: rgb(222, 158, 206);
+}
+.container .header {
+    width: 50%;
+    height:400px;
+    background-color:antiquewhite;
+
+}
+.container .header .button{
+    position: fixed;
+    top:50px;
+    left: 70%;
+    width:100px;
+    height:50px;
+ background-color: black;
+    color:antiquewhite;
+    text-align: center;
+}
+.container .header .button:hover{
+    background-color: white;
+    color:rgb(222, 158, 206);
+
+}
+.container .header .button1{
+    position:absolute;
+    top: 325px;
+    left: 10%;
+    background-color: Black;
+    color:rgb(236, 203, 211);
+    width: 150px;
+    height:50px;
+    text-align:center;
+
+
+}
+.container .header .image-container{
+    position: absolute;
+    top: 104px;
+    left: 50%;
+    width: 583px;
+    height:303px;
+    background-image: url("../../Documents/flight\ image/image11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+
+}
+.container .header .button1:hover {
+    background-color: #fff;
+    color:black;
+}
+
+.container .header .textlocation {
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .contentrow {
+    width: 100%;
+    height: 270px;
+    background-color:black;
+}
+.container .contentrow .textlocation1 {
+    position: absolute;
+    top: 430px;
+    left: 40%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .contentrow .button2{
+    position:absolute;
+    top: 600px;
+    left: 44%;
+    background-color:rgb(8, 8, 8);
+    color:white;
+    width: 150px;
+    height:50px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container .contentrow .button2:hover {
+    background-color: white;
+    color:black;
+}
+.container .contentrow1 {
+    width: 100%;
+    height: 1650px;
+    background-color:antiquewhite;
+}
+.container .contentrow1 .image1-container {
+    position: absolute;
+    top: 820px;
+    left:12%;
+    width: 300px;
+    height:200px;
+    background-image:url("../../Documents/flight\ image/image12.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.container .contentrow1 .image2-container {
+    position: absolute;
+    top: 820px;
+    left:39%;
+    width: 300px;
+    height:200px;
+    background-image:url("../../Documents/flight\ image/i.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.container .contentrow1 .image3-container {
+    position: absolute;
+    top: 820px;
+    left:66%;
+    width: 300px;
+    height:200px;
+    background-image:url("../../Documents/flight\ image/image14.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.container .contentrow1 .textlocation2 {
+    position: absolute;
+    top: 1020px;
+    left:12%;
+    color:black;
+    font-style: normal;
+}
+.container .contentrow1 .textlocation3 {
+    position: absolute;
+    top: 1020px;
+    left:39%;
+    color:black;
+    font-style: normal;
+}
+.container .contentrow1 .textlocation4 {
+    position: absolute;
+    top: 1020px;
+    left:66%;
+    color:black;
+    font-style: normal;
+}
+.container .contentrow1 .textlocation5 {
+
+    position: absolute;
+    top: 1500px;
+    left:40%;
+    color:black;
+    font-style: normal;
+}
+
+.container .contentrow1 .image4-container {
+    position: absolute;
+    top: 1400px;
+    left:47%;
+    width: 60px;
+    height:60px;
+    background-image:url("../../Documents/flight\ image/image16.png");
+  background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container .contentrow1 .image5-container {
+    position: absolute;
+    top: 1800px;
+    left:15%;
+    width: 400px;
+    height:500px;
+    background-image:url("../../Documents/flight\ image/image11.jpg");
+  background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container .contentrow1 .image6-container {
+    position: absolute;
+    top: 1800px;
+    left:50%;
+    width: 400px;
+    height:250px;
+    background-image:url("../../Documents/flight\ image/image13.webp");
+  background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container .contentrow1 .textlocation6 {
+
+    position: absolute;
+    top: 2080px;
+    left:50%;
+    text-decoration: underline;
+    color:black;
+    font-style: normal;
+}
+.container .contentrow1 .textlocation7 {
+
+    position: absolute;
+    top: 2080px;
+    left:65%;
+    color:black;
+    font-style: normal;
+}
+.container .contentrow2 {
+    width: 100%;
+    height: 600px;
+    background-color: Black;
+}
+.container .contentrow2 .image7-container {
+    position: absolute;
+    top: 2450px;
+    left:50%;
+    width: 550px;
+    height:350px;
+    background-image:url("../../Documents/flight\ image/image14.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.container .contentrow2 .textlocation8 {
+    position: absolute;
+    top:2430px;
+    left:10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-style: Normal;
+}
+.container .contentrow3 {
+    width: 1170px;
+    height: 1300px;
+    background-color:antiquewhite;
+}
+.container .contentrow3 .textlocation9 {
+    position: absolute;
+    top: 3000px;
+    left:15%;
+    color:black;
+    font-style: normal; 
+    font-size: 30px;
+
+
+}
+.container .contentrow3 .textlocation10 {
+    position: absolute;
+    top: 3250px;
+    left:15%;
+    color:black;
+    font-style: normal; 
+    font-size: 21px;
+
+
+}
+
+.container .contentrow3 .textlocaton10 .line{
+    border: none;
+    border-top: 0.5px solid #000;
+    width: 50%;
+font-size: 2px;
+}
+.container .contentrow3 .image11-container {
+    position: absolute;
+    top: 3060px;
+    left:60%;
+    width: 350px;
+    height:450px;
+    background-image:url("../../Documents/flight\ image/image12.jpg");
+  background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container .contentrow3 .textlocation11 {
+
+    position: absolute;
+    top: 3700px;
+    left:20%;
+    color:black;
+    font-style: normal; 
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container .contentrow3 .textlocation12 {
+
+    position: absolute;
+    top: 3830px;
+    left:20%;
+    color:black;
+    font-style: normal; 
+    font-size: 40px;
+    font-weight: bold;
+}
+.container .contentrow3 .image12-container {
+    position: absolute;
+    top: 3760px;
+    left:50%;
+    width: 450px;
+    height:350px;
+    background-image:url("../../Documents/flight\ image/image15.jpg");
+  background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container .footer {
+    width:100%;
+    height: 400px;
+    background-color: rgb(8, 8, 8);
+}
+.container .footer .textlocation13 {
+    position: absolute;
+    top:4270px;
+    left: 15%;
+    font-size: 35px;
+    color: rgb(196, 176, 176);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.container .footer .textlocation14 {
+    position: absolute;
+    top:4300px;
+    left:35%;
+    font-size: 15px;
+    color: rgb(196, 162, 162);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.container .footer .textlocation14 ul{
+list-style-type: none;
+text-decoration: none;
+}
+.container .footer .textlocation14 ul li{
+    list-style-type: none;
+    text-decoration:none;
+}
+.conatiner .footer .textlocation14 ul a{
+
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(192, 201, 198);
+    text-decoration: none;
+}
+.container .footer .textlocation15 {
+    position: absolute;
+    top:4368px;
+    left:45%;
+    font-size: 15px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.container .footer .textlocation15 ul{
+list-style-type: none;
+text-decoration: none;
+}
+.container .footer .textlocation15 ul li{
+    list-style-type: none;
+    text-decoration:none;
+}
+.conatiner .footer .textlocation15 ul a{
+
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(192, 201, 198);
+    text-decoration: none;
+}
+.container .footer .textlocation16 {
+    position: absolute;
+    top:4368px;
+    left:55%;
+    font-size: 15px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.container .footer .textlocation16 ul{
+list-style-type: none;
+text-decoration: none;
+}
+.container .footer .textlocation16 ul li{
+    list-style-type: none;
+    text-decoration:none;
+}
+.conatiner .footer .textlocation16 ul a{
+
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(192, 201, 198);
+    text-decoration: none;
+}
+.container .footer .textlocation15 {
+    position: absolute;
+    top:4368px;
+    left:45%;
+    font-size: 15px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.container .footer .textlocation15 ul{
+list-style-type: none;
+text-decoration: none;
+}
+.container .footer .textlocation15 ul li{
+    list-style-type: none;
+    text-decoration:none;
+}
+.conatiner .footer .textlocation15 ul a{
+
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(192, 201, 198);
+    text-decoration: none;
+}
+.container .footer .textlocation17 {
+    position: absolute;
+    top:4368px;
+    left:69%;
+    font-size: 15px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.container .footer .textlocation17 ul{
+list-style-type: none;
+text-decoration: none;
+}
+.container .footer .textlocation17 ul li{
+    list-style-type: none;
+    text-decoration:none;
+}
+.conatiner .footer .textlocation17 ul a{
+
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(192, 201, 198);
+    text-decoration: none;
+}
+.container .footer .textlocation18 {
+    position: absolute;
+    top: 4550px;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: black;
+
+}
