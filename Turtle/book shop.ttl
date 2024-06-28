@@ -1,0 +1,31 @@
+@prefix ex: <http://example.org/> .
+
+# Entities
+ex:Kiran a ex:Person .
+ex:Simran a ex:Person .
+ex:Ludhiana a ex:Place .
+ex:KiranBookShop a ex:BookShop .
+ex:Book a ex:Book .
+ex:DrGSSandhu a ex:Author .
+ex:Algebra a ex:Subject .
+ex:English a ex:Language .
+ex:MathematicsBooks a ex:BookType .
+ex:CivilLines a ex:Location .
+ex:Date_2013_08_04 a ex:Date .
+
+# Relationships
+ex:Kiran ex:livesIn ex:Ludhiana .
+ex:Kiran ex:friendOf ex:Simran .
+ex:Kiran ex:interestedIn ex:Book .
+
+ex:Book ex:author ex:DrGSSandhu .
+ex:Book ex:language ex:English .
+ex:Book ex:publishingDate ex:Date_2013_08_04 .
+ex:Book ex:soldAt ex:KiranBookShop .
+
+ex:KiranBookShop ex:locatedIn ex:CivilLines .
+
+ex:MathematicsBooks ex:hasSubject ex:Algebra .
+
+# Additional information
+ex:Book ex:hasType ex:MathematicsBooks .
