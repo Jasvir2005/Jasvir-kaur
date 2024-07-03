@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dell/ontologies/2024/6/school#"
+     xml:base="http://www.semanticweb.org/dell/ontologies/2024/6/school#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:school="http://www.semanticweb.org/dell/ontologies/2024/6/school#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#">
+        <rdfs:comment xml:lang="en">This is an ontology about school</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#admits -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#admits">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#School"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Student"/>
+        <rdfs:comment xml:lang="en">School admits students</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#employs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#employs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#School"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Staff"/>
+        <rdfs:comment xml:lang="en">school employs staff</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#learns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#learns">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Subject"/>
+        <rdfs:comment xml:lang="en">student learns the subject</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#teaches -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#teaches">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Teacher"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Subject"/>
+        <rdfs:comment xml:lang="en">teacher teaches the subject</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#JoiniedON -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#JoiniedON">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">indicates the joining date of the student</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#staffID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#staffID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Staff"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#studentID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#studentID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#teach -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#teach">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Teacher"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#Administrative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#Administrative">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Maintenence"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Non_Teaching"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#Govt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#Govt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#School"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#House_keeping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#House_keeping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Non_Teaching"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#Junior_Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#Junior_Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#Maintenence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#Maintenence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Non_Teaching"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#Non_Teaching -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#Non_Teaching">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#Private -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#Private">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#School"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#School -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#School">
+        <rdfs:comment xml:lang="en">This class denotes the school</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#Senior_Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#Senior_Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#Staff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#Staff">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#Student"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#Subject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#Supporting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#Supporting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Non_Teaching"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#Teacher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#Teacher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#international_school -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#international_school">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#School"/>
+        <school:admits rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#rick"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#rick -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#rick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Student"/>
+        <school:JoiniedON rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T09:00:00</school:JoiniedON>
+        <school:studentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S10001</school:studentID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2024/6/school#tony -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2024/6/school#tony">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2024/6/school#Teacher"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
