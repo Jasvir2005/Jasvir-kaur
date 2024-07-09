@@ -13,7 +13,7 @@
     position: fixed ;
     top:20px;
     left: 10%;
-    background-color:#ffffff;
+    background-color:#fcfcfc;
    color:#fff;
     justify-content: center;
     padding: 10px 0;
@@ -41,7 +41,7 @@ list-style-type: none ;
 .container .header {
     width: 50%;
     height:400px;
-    background-color:antiquewhite;
+    background-color:rgb(236, 253, 247);
 
 }
 .container .header .button{
@@ -51,7 +51,7 @@ list-style-type: none ;
     width:100px;
     height:50px;
  background-color: black;
-    color:antiquewhite;
+    color:rgb(236, 253, 247);
     text-align: center;
 }
 .container .header .button:hover{
@@ -131,7 +131,7 @@ list-style-type: none ;
 .container .contentrow1 {
     width: 100%;
     height: 1650px;
-    background-color:antiquewhite;
+    background-color:rgb(236, 253, 247);
 }
 .container .contentrow1 .image1-container {
     position: absolute;
@@ -276,7 +276,7 @@ list-style-type: none ;
 .container .contentrow3 {
     width: 1170px;
     height: 1300px;
-    background-color:antiquewhite;
+    background-color:rgb(236, 253, 247);
 }
 .container .contentrow3 .textlocation9 {
     position: absolute;
