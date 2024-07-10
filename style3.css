@@ -19,6 +19,7 @@ body {
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
+            height: 100px;
             background: linear-gradient(to right, #000000, #434343);
             padding: 10px 20px;
             color: #fff;
@@ -73,12 +74,12 @@ body {
             text-align: center;
         }
         h1 {
-            font-size: 1.5em;
+            font-size: 2em;
             /* Ensure main h1 is smaller than report header h1 */
         }
         
         h2 {
-            font-size: 1em;
+            font-size: 2em;
             /* Ensure main h1 is smaller than report header h1 */
         }
         
