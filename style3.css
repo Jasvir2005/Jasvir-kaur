@@ -102,7 +102,6 @@ body {
             text-align: center;
             padding: 20px;
             margin-top: 40px;
-            height: 80px;
             background: linear-gradient(to right, #434343, #000000);
             color: #fff;
             border-radius: 0 0 10px 10px;
@@ -124,7 +123,7 @@ body {
                 padding: 8px 16px;
             }
             header img {
-                height: 40px;
+                height: 80px;
             }
             .pdf-container iframe {
                 height: 400px;
