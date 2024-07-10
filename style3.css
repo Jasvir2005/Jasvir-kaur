@@ -74,17 +74,17 @@ body {
             text-align: center;
         }
         h1 {
-            font-size: 2em;
+            font-size: 1.7em;
             /* Ensure main h1 is smaller than report header h1 */
         }
         
         h2 {
-            font-size: 2em;
+            font-size: 1.7em;
             /* Ensure main h1 is smaller than report header h1 */
         }
         
         p{
-            font-size: x-large;
+            font-size: 1.6em;
             font-weight: 490;
         }
         .pdf-container {
@@ -102,6 +102,7 @@ body {
             text-align: center;
             padding: 20px;
             margin-top: 40px;
+            height: 100px;
             background: linear-gradient(to right, #434343, #000000);
             color: #fff;
             border-radius: 0 0 10px 10px;
