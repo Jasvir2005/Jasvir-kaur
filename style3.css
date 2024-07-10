@@ -26,8 +26,8 @@ body {
             border-radius: 10px 10px 0 0;
         }
         header img {
-            height: 100px;
-            margin: px 0;
+            height: 80px;
+            margin: 10px 0;
             max-width: 100%;
         }
         header .home-button {
@@ -102,6 +102,7 @@ body {
             text-align: center;
             padding: 20px;
             margin-top: 40px;
+            height: 60px;
             background: linear-gradient(to right, #434343, #000000);
             color: #fff;
             border-radius: 0 0 10px 10px;
@@ -123,7 +124,7 @@ body {
                 padding: 8px 16px;
             }
             header img {
-                height: 60px;
+                height: 40px;
             }
             .pdf-container iframe {
                 height: 400px;
