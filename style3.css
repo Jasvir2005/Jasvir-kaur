@@ -42,6 +42,7 @@ body {
         header .home-button:hover {
             background-color: #000000;
         }
+        
         nav {
             text-align: center;
             margin-bottom: 20px;
@@ -59,6 +60,9 @@ body {
         nav a:hover {
             background-color: #070607;
         }
+        nav a:active {
+            background-color: #f8c7ff;
+        }
         .section {
             display: none;
         }
@@ -67,6 +71,20 @@ body {
         }
         h1, h2, p {
             text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            /* Ensure main h1 is smaller than report header h1 */
+        }
+        
+        h2 {
+            font-size: 2.5em;
+            /* Ensure main h1 is smaller than report header h1 */
+        }
+        
+        p{
+            font-size: x-large;
+            font-weight: 490;
         }
         .pdf-container {
             text-align: center;
