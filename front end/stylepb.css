@@ -57,7 +57,7 @@
     color: #fff;
     padding: 10px 15px;
     font-size: 16px;
-    text-align: center;
+    position: center;
     border: none;
     border-radius: 5px;
     cursor: pointer;
