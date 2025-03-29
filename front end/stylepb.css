@@ -57,7 +57,7 @@
     color: #fff;
     padding: 10px 15px;
     font-size: 16px;
-    position: center;
+    position:  absolute;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -76,6 +76,10 @@
   }
   
   .result h3 {
+    font-size: 18px;
+    color: #000000;
+  }
+  .result h4 {
     font-size: 18px;
     color: #000000;
   }
