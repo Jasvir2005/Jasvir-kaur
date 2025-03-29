@@ -55,7 +55,7 @@
   .translation-form button {
     background-color: #00ccff;
     color: #fff;
-    text-align:center;
+    justify-content: center;
     padding: 10px 15px;
     font-size: 16px;
     border: none;
