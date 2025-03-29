@@ -54,12 +54,13 @@
   
   .translation-form button {
     position:absolute;
-    top: 600px;
+    top: 617px;
     left: 44%;
-    background-color:rgb(8, 8, 8);
-    color:white;
+    background-color: #00ccff;
+    color:#fff;
+    font-size: 17.5px;
     width: 150px;
-    height:50px;
+    height:45px;
     text-align: center;
     border: 2px solid white;
     border-radius: 5px;
@@ -68,11 +69,12 @@
   }
   
   .translation-form button:hover {
-    background-color: #eab4f1;
+    background-color: #e2b2e9;
+    color:#0c0a0a;
   }
   
   .result {
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 10px;
     background-color: #f8e9e3;
     border-radius: 5px;
