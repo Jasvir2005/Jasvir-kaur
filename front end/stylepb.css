@@ -80,11 +80,11 @@
     border-radius: 5px;
   }
   
-  .result h3 {
+  .result h2 {
     font-size: 20px;
     color: #000000;
   }
-  .result h4 {
+  .result h3 {
     font-size: 20px;
     color: #000000;
   }
@@ -97,10 +97,10 @@
 .container .header .textlocation {
     position: absolute;
     top: 100px;
-    left: 29%;
+    left: 33%;
     color: rgb(71, 3, 66);
     font-weight: bold;
     text-align: center;
-    font-size: 37px;
+    font-size: 38px;
     font-family: cursive;
 }
