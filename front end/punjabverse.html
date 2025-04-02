@@ -5,40 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="stylepb.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='stylepb (1).css')}}">
+    <title>Punjabi Proverbs Translation</title>
 </head>
+<body>
     <!-- class for the formation of the navigation bar  -->
-        
-        <!-- Topheader for the concept of fluidity -->
-        <div class="topheader"> 
-            <!-- class for the container -->
-            <div class="container"> 
-                <!-- This is the header class -->
-               <div class="header"> 
-            
+    <div class="topheader"> 
+        <div class="container"> 
+            <div class="header"> 
                 <div class="textlocation">
-                    <p> <h1>ਪੰਜਾਬ VERSE</h1> 
-                        
-                    </p>
+                    <h1>ਪੰਜਾਬ VERSE</h1>
                 </div>
-                
-                <div class="image-container"> </div>
-               </div>
-               <div class="contentrow"> 
+                <div class="image-container"></div>
+            </div>
+            
+            <div class="contentrow">
                 <section class="idiom-translation">
-                    <label for="punjabi-idiom">Enter Punjabi Muharave (Idiom) :</label>
-                    <input type="text" id="punjabi-idiom" placeholder="Type your Muharave here...">
-                    <button onclick="translateIdiom()">Search</button>
+                    <form method="POST" >
+                        <label for="punjabi-idiom">Enter Punjabi Muharave (Idiom) :</label>
+                        <input type="text" id="punjabi-idiom" name="punjabi_idiom" placeholder="Type your Muharave here..." required>
+                        <button type="submit">Search</button>
+                    </form>
                 </section>
 
                 <div class="result">
+                    {% if translation %}
                     <h2>Meaning :</h2>
-                    <p id="outputText">Your translation will appear here.</p>
+                    <p>{{ translation['meaning'] }}</p>
                     
                     <h3>Equivalent English Idiom :</h3>
-                    <p id="outputText">Your translation will appear here.</p>
+                    <p>{{ translation['english_equivalent'] }}</p>
+                    {% else %}
+                    <p>Enter a Punjabi proverb to get the translation and meaning.</p>
+                    {% endif %}
                 </div>    
-                
             </div>
-        
-</html>   
+        </div>
+    </div>
+</body>
+</html>
