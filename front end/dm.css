@@ -92,6 +92,7 @@
 .result h2 {
   font-size: 20px;
   color: #000000;
+  text-align: center;
 }
 
 .result p {
@@ -139,11 +140,11 @@
 
 .clear-btn {
   position: absolute;
-  right: 12px;
+  right: 180px;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-60%);
   font-size: 50px;
-  color: red;
+  color: rgb(209, 4, 4);
   cursor: pointer;
   display: none;
   z-index: 10;
