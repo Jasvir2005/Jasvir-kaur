@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Punjabi Proverbs Translation</title>
+  <link rel="stylesheet" href="dm.css" />
+ 
+</head>
+<body>
+  <div class="topheader">
+    <div class="container">
+      <div class="header">
+        <div class="textlocation">
+          <h1>ਪੰਜਾਬ VERSE</h1>
+        </div>
+        <div class="image-container"></div>
+      </div>
+
+      <div class="contentrow">
+        <section class="idiom-translation">
+          <form method="POST" autocomplete="off" id="searchForm">
+            <label for="punjabi-idiom">Enter Punjabi Muharave (Idiom):</label>
+            <div class="search-wrapper">
+              <input
+                type="text"
+                id="searchBox"
+                name="query"
+                placeholder="Enter a keyword"
+                value="{{ keyword }}"
+                required
+              />
+              <span id="clearInputBtn" class="clear-btn">&times;</span>
+              <ul id="suggestions"></ul>
+            </div>
+            <input type="hidden" name="selected" id="selectedValue" value="false" />
+            <button type="submit">Search</button>
+            <button type="button" onclick="clearSearch()">Clear</button>
+          </form>
+        </section>
+
+        <div class="result">
+          <!--{% if results %}
+            {% for row in results %}-->
+              <h2>ਪੰਜਾਬੀ: <!--{{ row[0] }}--></h2>
+              <h2>Meaning:</h2>
+              <!--<p>{{ row[1] }}</p>
+              {% if row[2] and row[2]|length > 0 %}-->
+                <h2>Equivalent English Idiom:</h2>
+                <!--<p>{{ row[2] }}</p>
+              {% endif %}
+            {% endfor %}
+            {% elif message %}-->
+            <p style="color: rgb(197, 21, 21);"><!--{{ message }}--></p>
+        <!--{% endif %}-->
+        
+        </div>
+      </div>
+      <section class="about">
+        <div class="about-content">
+            <img src="imagepb.jpeg" alt="working">
+            <div class="text">
+                <h6>About Us...</h6>
+                <p>Hendrerit dolor magna eget est lorem ipsum. Vel risus commodo viverra maecenas.</p>
+                <p>Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Aliquet nibh praesent tristique magna sit.</p>
+            </div>
+        </div>
+    </section>
+      <section class="how-to">
+        <h6>Objectives</h6>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h4>Add text</h4>
+                <p>Type, paste, or upload the text you want to translate into the tool. No limits on the number of times you can use the Translator.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h4>Choose language</h4>
+                <p>Select the language you would like to translate to. Supports 50 languages including Spanish, German, and French.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h4>Get translation</h4>
+                <p>Hit "Translate" to generate your full translation. You can copy or export your text for later use.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+      <h6>Why our website</h6>
+      <div class="grid">
+        <div class="card blue">
+          <h3>Greater consistency</h3>
+          <p>Generate accurate, context-aware translations that preserve both the tone and style of the original text.</p>
+        </div>
+        <div class="card yellow">
+          <h3>Increased productivity</h3>
+          <p>Communicate effectively with colleagues around the world. Translate on the go with our mobile-friendly platform.</p>
+        </div>
+        <div class="card green">
+          <h3>Advanced AI models</h3>
+          <p>Enjoy the benefits of an AI Translator that draws on thousands of expertly written sources in multiple languages.</p>
+        </div>
+        <div class="card orange">
+          <h3>Multilingual coverage</h3>
+          <p>Translate to and from 50 different languages and dialects. Seamlessly switch between languages in different contexts.</p>
+        </div>
+        <div class="card purple">
+          <h3>Integrated tools</h3>
+          <p>Polish your translated texts by checking grammar and adding citations with our conveniently integrated tools.</p>
+        </div>
+        <div class="card pink">
+          <h3>Regular updates</h3>
+          <p>Access the latest features and stay up to date with translation technology that sets your content apart.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <h6>How our website works</h6>
+      <p class="subtitle">QuillBot can help you break down language barriers when communicating with international clients, partners, or colleagues. Here are some more popular ways to use QuillBot’s AI Translator.</p>
+  
+      <div class="flex-row">
+        <div class="image-box">
+          <img src="image00.jpeg" alt="Research and write image">
+        </div>
+        <div class="text-box">
+          <h7>STEP 1</h7>
+          <p>For students and researchers working in the global community, reading or writing in another language is a valuable skill. With QuillBot’s language Translator, you can understand studies written in other languages or conduct your own research in a language you don’t speak. For example, a German researcher who needs to create a questionnaire for Japanese and Korean participants can write with clarity and confidence using QuillBot.</p>
+        </div>
+      </div>
+  
+      <div class="flex-row reverse">
+        <div class="text-box">
+          <h7>STEP 2</h7>
+          <p>Many of us learn new languages for reasons besides travel and academic pursuits. Learning a language may be a hobby, a way to connect with new friends or family members, a shiny addition to your resume, or just part of your self-development. With QuillBot, language learners can automatically translate sentences, words, or even whole paragraphs and then compare the two languages side by side to understand sentence structure, word choice, and verb conjugation. Plus, QuillBot’s smart online Translator can help make sense of mystifying idioms and other language quirks.</p>
+        </div>
+        <div class="image-box">
+          <img src="image000.jpeg" alt="Learn new languages image">
+        </div>
+      </div>
+      <div class="flex-row">
+        <div class="image-box">
+          <img src="image00.jpeg" alt="Research and write image">
+        </div>
+        <div class="text-box">
+          <h7>STEP 3</h7>
+          <p>For students and researchers working in the global community, reading or writing in another language is a valuable skill. With QuillBot’s language Translator, you can understand studies written in other languages or conduct your own research in a language you don’t speak. For example, a German researcher who needs to create a questionnaire for Japanese and Korean participants can write with clarity and confidence using QuillBot.</p>
+        </div>
+      </div>
+  
+      <div class="flex-row reverse">
+        <div class="text-box">
+          <h7>STEP 4</h7>
+          <p>Many of us learn new languages for reasons besides travel and academic pursuits. Learning a language may be a hobby, a way to connect with new friends or family members, a shiny addition to your resume, or just part of your self-development. With QuillBot, language learners can automatically translate sentences, words, or even whole paragraphs and then compare the two languages side by side to understand sentence structure, word choice, and verb conjugation. Plus, QuillBot’s smart online Translator can help make sense of mystifying idioms and other language quirks.</p>
+        </div>
+        <div class="image-box">
+          <img src="image000.jpeg" alt="Learn new languages image">
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-content">
+          <h5>Contact Us</h5>
+          <div class="footer-info">
+              <div class="info-item">
+                  
+                  <p>Guru Nanak Dev Engineering College, Gill Park, Ludhiana</p>
+              </div>
+              <div class="info-item">
+              
+                  <p>123-456-7890</p>
+              </div>
+              <div class="info-item">
+                  
+                  <p>abc@gmail.com</p>
+              </div>
+              <div class="info-item">
+                  
+                  <p>www.website.com</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+    </div>
+  </div>
+
+  <script>
+    const input = document.getElementById("searchBox");
+    const suggestionsList = document.getElementById("suggestions");
+    const selectedField = document.getElementById("selectedValue");
+    const clearInputBtn = document.getElementById("clearInputBtn");
+
+    input.addEventListener("input", () => {
+      selectedField.value = "false";
+      clearInputBtn.style.display = input.value ? "block" : "none";
+
+      const query = input.value;
+      if (query.length < 1) {
+        suggestionsList.innerHTML = "";
+        return;
+      }
+
+      fetch(`/suggest?q=${encodeURIComponent(query)}`)
+        .then((response) => response.json())
+        .then((data) => {
+          suggestionsList.innerHTML = "";
+          data.forEach((item) => {
+            const li = document.createElement("li");
+            li.textContent = item;
+            li.addEventListener("click", () => {
+              input.value = item;
+              selectedField.value = "true";
+              suggestionsList.innerHTML = "";
+              clearInputBtn.style.display = "block";
+            });
+            suggestionsList.appendChild(li);
+          });
+        });
+    });
+
+    clearInputBtn.addEventListener("click", () => {
+      input.value = "";
+      suggestionsList.innerHTML = "";
+      selectedField.value = "false";
+      clearInputBtn.style.display = "none";
+    });
+
+    function clearSearch() {
+      document.querySelector(".result").innerHTML = "";
+    }
+    // Close suggestion dropdown when clicking outside
+document.addEventListener('click', function(event) {
+    const isClickInsideInput = input.contains(event.target);
+    const isClickInsideSuggestions = suggestionsList.contains(event.target);
+
+    if (!isClickInsideInput && !isClickInsideSuggestions) {
+        suggestionsList.innerHTML = '';
+    }
+});
+
+  </script>
+</body>
+</html>
