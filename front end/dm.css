@@ -31,6 +31,26 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.textlocation {
+  margin-block-start: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  max-width: 600px;
+  max-height: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  
+}
+
+.textlocation h1 {
+  margin-block-start: 0px;
+  margin-bottom: 1rem;
+  color: rgb(71, 3, 66);
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  font-family: cursive;
+}
 
 .idiom-translation {
   margin-bottom: 30px;
@@ -111,7 +131,7 @@
 
 .container .header .textlocation {
   position: absolute;
-  top: 170px;
+  top: 150px;
   left: 50%;
   transform: translateX(-50%);
   color: rgb(71, 3, 66);
@@ -246,6 +266,7 @@
 }
 
  h6 {
+  margin-top: 20px;
   margin-bottom: 20px;
   color: rgb(71, 3, 66);
   font-weight: bold;
@@ -377,8 +398,7 @@
 
 .footer-info {
   display: flex;
-  flex-direction: row;
-  gap: 55px;
+  flex-direction: column;
 }
 
 .info-item {
